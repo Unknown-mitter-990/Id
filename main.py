@@ -22,7 +22,7 @@ def save_json(file, data):
 
 @bot.message_handler(commands=["start"])
 def start(message):
-    bot.send_message(message.chat.id, "🤖 Welcome to INFINITE STORE!
+    bot.send_message(message.chat.id, "🤖 Welcome to INFINITE STORE!"
 Use /list to see BGMI IDs.")
 
 @bot.message_handler(commands=["list"])
